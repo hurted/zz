@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 #author by Firzii
 
 clear
@@ -9,7 +9,7 @@ purple='\033[34;1m'
 yellow='\033[35;1m'
 cyan='\033[36;1m'
 
-echo
+echo""
 echo -e $blue"======================================================="
 echo -e $yellow"==             Name:Firzii                         =="
 echo -e $yellow"==             Nick:Mr.HurT3d                      =="
@@ -21,7 +21,7 @@ echo -e $cyan"[1] Tools Spam Wa (spam chat)"
 echo -e $cyan"[2] Tools Spam Wa (spam telepon)"
 echo -e $cyan"[3] Tools Gps-Tracking"
 echo -e $cyan"[4] Tools Hack Cctv Guys"
-echo
+echo""
 echo -e $yellow
 read -p"rootlocalhost@Firzii=$" zii;
 
@@ -38,7 +38,7 @@ cd WaSpam
 php chat.php
 fi
 
-if [ $zii = 2 ] || [ $zii = 2 ]
+if [ $zii = 2 ] || [ $zii = 2]
 then
 clear
 echo -e $red"Spam Wa Telepon"
@@ -50,7 +50,7 @@ cd WaSpam
 php call.php
 if
 
-if [ $zii = 3 ] || [ $zii = 3 ]
+if [ $zii = 3 ] || [ $zii = 3]
 then
 clear
 echo -e $blue"Tools Cyduk Orang hehe"
@@ -61,18 +61,5 @@ pkg install php -y
 git clone https://github.com/hurted/gps-tracking
 cd gps-tracking
 php gps.php
-fi
-
-if [ $zii = 4 ] || [ $zii = 4 ]
-then
-clear
-echo -e $cyan"Hack Cctv Gayss"
-sleep 1
-pkg install python2 -y
-pkg install git -y
-pip2 install requests
-git clone https://github.com/kancotdiq/ipcs
-cd ipcs
-python2 scan.py
 fi
 exit
